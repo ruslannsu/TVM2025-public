@@ -1,3 +1,5 @@
 AddMul {
- // Write the rules here
+    Exp = Factor "+" Exp  -- add
+     | Factor         -- single
+    Factor = digit+ -- num
 }
